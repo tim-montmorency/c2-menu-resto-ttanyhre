@@ -1,21 +1,80 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Nom du Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- 
-        INSTRUCTIONS :
-        1. Remplacez "Nom du Restaurant" par le nom de votre choix
-        2. Créez une structure sémantique (section, article, header, etc.)
-        3. Utilisez des listes (ul/li) pour les items de menu
-        4. Ajoutez des classes cohérentes (BEM recommandé)
-
-        Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
-    -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU DE MON RESTO</title>
+    <link rel="stylesheet" href="/style.css">
     
-</body>
+  </head>
+  <body>
+    <main class="menu">
+        <p class="tiret">-----------------------------------------------------------------------</p>
+      <header><h1 class="menu_title">MENU</h1>
+        <h2 class="menu_title">TANYASTORANT</h2>
+        </header>
+        <p class="tiret">------------------------------------------------------------------------</p>
+      <section class="menu-category">
+        <div>
+          <h2 class="menu-category_title">Entrées</h2>
+        </div>
+        <p class="tiret">-------------------------------------------------------------------------</p>
+        <article class="menu-category_list">
+          <div class="menu-item">
+            <h3  class="menu-item-title">Gyoza <p class="prix1">0.99$</p></h3>
+            <p class="menu-item_ingredients">Raviolis japonais grillés , farcis au porc , gingembre</p>
+          </div>
+          <div class="menu-item">
+            <h3  class="menu-item-title">Karaage <p class="prix2">0.99$</p></h3>
+            <p class="menu-item_ingredients">poulet frit, soja , l'ail.</p>
+          </div>
+          <div>
+            <h3  class="menu-item-title">Tataki <p class="badge-item">[POPULAIRE]</p> <p class="prix3">0.99$</p></h3>
+            <p class="menu-item_ingredients">tranches de viande , sauce ponzu , poisson</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="menu-category">
+        <div><p class="tiret">-----------------------------------------------------------------------</p>
+          <h2 class="menu-category_title">Plats principaux</h2>
+        </div><p class="tiret">----------------------------------------------------------------------</p>
+        <article class="menu-category_list">
+          <div class="menu-item">
+            <h3  class="menu-item-title">Ramen <p class="badge-item">[POPULAIRE]</p> <p class="prix4">1.99$</p></h3>
+            <p class="menu-item_ingredients">Nouilles de blé, bouillon, tare , Œufs mollets, porc braisé</p>
+          </div>
+          <div class="menu-item">
+            <h3  class="menu-item-title">Katsudon <p class="badge-item">[VÉGÉ]</p> <p class="prix5">2.99$</p></h3>
+            <p class="menu-item_ingredients">Boules de riz, algue nori, saumon grillé , thon-mayonnaise</p>
+          </div>
+          <div>
+            <h3  class="menu-item-title">Teriyaki <p class="badge-item">[NOUVEAU]</p> <p class="prix6">1.99$</p></h3>
+            <p class="menu-item_ingredients"> poulet grillé , sauce laquée</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="menu-category">
+        <div><p class="tiret">-------------------------------------------------------------------</p>
+          <h2 class="menu-category_title">Desserts</h2>
+        </div><p class="tiret">-------------------------------------------------------------------</p>
+        <article class="menu-category_list">
+          <div class="menu-item">
+            <h3  class="menu-item-title">Daifuku <p class="badge-item">[POPULAIRE]</p> <p class="prix7">0.99$</p></h3>
+            <p class="menu-item_ingredients"> boule de pâte de riz, haricots rouges sucrée</p>
+          </div>
+          <div class="menu-item">
+            <h3  class="menu-item-title">Matcha Parfait <p class="badge-item">[NOUVEAU]</p> <p class="prix8">1.99$</p></h3>
+            <p class="menu-item_ingredients">coupe glacée, couches de gelée,  corn flakes , lace au thé vert</p>
+          </div>
+          <div>
+            <h3  class="menu-item-title">Taiyaki <p class="badge-item">[VÉGÉ]</p><p class="prix9">0.99$</p></h3>
+            <p class="menu-item_ingredients"> croustillant , ourré de crème pâtissière, forme de poisson</p><br>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+
 </html>
